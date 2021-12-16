@@ -1,0 +1,4 @@
+function power(x,y){
+  const z = x ** y;
+  return z;
+}
