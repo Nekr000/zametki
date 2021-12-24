@@ -1,0 +1,10 @@
+function generatePairs(num) {
+  let arr = []
+  for (let i = 0; i <= num; i++) {
+    for (let j = i; j <= num; j++) {
+      arr.push([i, j])
+    }
+  }
+  return arr
+}
+console.log(generatePairs(2));
