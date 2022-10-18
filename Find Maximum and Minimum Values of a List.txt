@@ -1,0 +1,9 @@
+var min = function(list){
+    var list2 = Math.min(...list)
+    return list2;
+}
+
+var max = function(list){
+    var list3 = Math.max(...list)
+    return list3;
+}
