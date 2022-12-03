@@ -1,0 +1,4 @@
+function solution(str){
+  var x = str.split("").reverse().join("")
+  return x
+}
